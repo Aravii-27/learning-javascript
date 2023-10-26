@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>BOOKSKY</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>who moved myB cheese?</h2>
+            <h5>Spencer Johnson</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, repudiandae! Possimus doloremque fuga omnis libero. Reiciendis, dolores sit quod aperiam minima fugiat totam aliquam corrupti in? Quos facere voluptates obcaecati!</p>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+
+        <div class="book-container-2">
+            <h2>the alchemist</h2>
+            <h5>Paulo Coelho</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, repudiandae! Possimus doloremque fuga omnis libero. Reiciendis, dolores sit quod aperiam minima fugiat totam aliquam corrupti in? Quos facere voluptates obcaecati!</p>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+</div>
+
+    <div class="overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form action="">
+            <input type="text" placeholder="Book Title" id="book-title">
+            <input type="text" placeholder="Author Name" id="author-name">
+            <textarea placeholder="Short Desc..." id="book-desc" cols="30" rows="10"></textarea>
+            <button id="add-book-button">add book</button>
+            <button id="close-button">close</button>
+        </form>
+    </div>
+    
+    <button class="add-button" id="add-popup-button">+</button>
+<script src="file.js"></script>
+</body>
+</html>
