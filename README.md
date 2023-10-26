@@ -4,10 +4,10 @@ Welcome to the "Learning JavaScript" repository. This repository contains a coll
 
 ## Projects
 
-- [Register Page](./registerpage/README.md): A simple registration page.
-- [Digital Clock](./digital-clock/README.md): A web-based digital clock.
+- [Register Page](./register%20page/README.md): A simple registration page.
+- [Digital Clock](./digital%20clock/README.md): A web-based digital clock.
 - [Booksky](./booksky/README.md): A book collection management application.
-- [Todo List](./todolist/README.md): A task management tool.
+- [Todo List](./todo-list%20with%20local%20storage/README.md): A task management tool.
 
 ## About
 
